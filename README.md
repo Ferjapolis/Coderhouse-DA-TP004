@@ -1,21 +1,24 @@
 # TP008-SC-Coderhouse-001
-Trabajo practico de análisis de datos [Coderhouse]
+## Coderhouse
+Curso: **Data Analytics**
+Comisión: **39895**
+Alumno: **Fernando Javier Barroso Ouharriet**
 
-## actividad #1. 
----
-- Consigna: 
+Actividad 1
+Descripción de la actividad. 
+
+ > Consigna: 
 Enlistar no más de tres temáticas, que puedan ser usadas para el proyecto final. De estas se elegirá la definitiva.
 
-- Aspectos a incluir: 
+> Aspectos a incluir: 
 Industria, tipo de negocio, o tipo de investigación implicado en la temática.
 Temática a analizar.
 
-- Definición de temas del Proyecto Final
 
 ### Datasets recolectados:
-- Modelo 1: Cambio Climático: Datos de Temperatura de la Superficie de la Tierra ( [Ir](Datasets/Model_001) )
-- Modelo 2: Información sobre incendios de la NASA para el sistema de gestión de recursos ( [Ir](Datasets/Model_002) )
-- Modelo 3: Consumo personal de Spotify entre el 2021 y 2023 ( [Ir](Datasets/Model_003) )
-> En definicion de alcance y potencialidad de analisis.
+- DATASET 1: Programa de Reconocimientos( [Ir](Datasets/Model_001) )
+- DATASET 2: Programa de Precios Claros (precios de Argentina) ( [Ir](Datasets/Model_002) )
+- DATASET 3: Programa de análisis emocional basado en Streaming de Spotify ( [Ir](Datasets/Model_003) )
+
 
 ---

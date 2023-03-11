@@ -1,48 +1,41 @@
-Proveedor de datos: NASA
-Nombre del proyecto de análisis de datos: Conjunto de datos de terremotos
+## Dataset 2 - Programa de Precios Claros (precios de Argentina)
 
-El conjunto de datos de investigación sísmica contiene información valiosa sobre terremotos de todo el mundo. Este conjunto de datos incluye información sobre la ubicación del terremoto, la fecha y hora, la magnitud y la profundidad. Además, se proporciona información sobre el número de personas afectadas y los daños causados.
+### Business
+1.0 — **AntoServices** *¿Qué es Precios Claros?*
+La iniciativa Precios Claros de la Dirección Nacional de Defensa del Consumidor es una herramienta importante para mejorar la transparencia y la equidad en el mercado. A través de esta iniciativa, los ciudadanos tienen acceso a información detallada sobre los precios de los productos y servicios ofrecidos en diferentes establecimientos, lo que les permite tomar decisiones más informadas y justas en sus compras.
 
-El conjunto de datos es útil para investigadores que deseen estudiar la actividad sísmica y su impacto en la población y la infraestructura. Además, los expertos en prevención y respuesta ante desastres naturales pueden utilizar este conjunto de datos para comprender mejor cómo se desarrollan los terremotos y cómo pueden mitigar sus efectos.
+En este sentido, los datasets obtenidos a través del "scraper" del colectivo Open Data Córdoba son una herramienta valiosa para el análisis y monitoreo de precios a lo largo del tiempo. Estos datos contienen información detallada sobre los precios de todos los productos disponibles en una sucursal testigo por cadena por provincia, con una actualización semanal aproximada.
 
-Este conjunto de datos también es útil para el público en general, ya que proporciona información sobre los terremotos más importantes que han ocurrido en todo el mundo. Además, esta información puede ser utilizada por los gobiernos y organizaciones internacionales para establecer políticas y programas de prevención de desastres.
+La disponibilidad de esta información en tiempo real y de manera pública es un paso importante en la lucha contra la desigualdad en el mercado y la protección de los derechos de los consumidores. Además, permite que los supermercados y otras empresas ajusten sus precios para ser más competitivos y brinden una mejor experiencia de compra a los consumidores.
 
+En este contexto, la implementación de la iniciativa Precios Claros en un supermercado local es una oportunidad única para mejorar la transparencia y la confianza del consumidor en el establecimiento. Al proporcionar información clara y detallada sobre los precios de sus productos y servicios, el supermercado puede mejorar la percepción del consumidor y aumentar su fidelidad a la marca.
 
-## Tipos de análisis implementados:
+En conclusión, la disponibilidad de información detallada y actualizada sobre los precios de los productos y servicios ofrecidos en diferentes establecimientos es esencial para garantizar la equidad y la transparencia en el mercado. La implementación de la iniciativa Precios Claros en un supermercado local, junto con el monitoreo y análisis de los datos a través de los datasets del colectivo Open Data Córdoba, puede ayudar a mejorar la experiencia de compra del consumidor y la eficacia de las operaciones del establecimiento.
+2.0 — **AntoServices** *Análisis de negocio*
+La implementación de la iniciativa Precios Claros en un supermercado local puede tener un impacto significativo en el mercado, especialmente en el sector de los pequeños kioscos. Al proporcionar información clara y detallada sobre los precios de los productos y servicios ofrecidos en diferentes establecimientos, los consumidores pueden tomar decisiones más informadas y justas en sus compras, lo que puede llevar a un aumento en la competencia y una disminución en los precios en el mercado en general.
 
-**Descriptivo**: 
+Sin embargo, la implementación de Precios Claros también puede tener un impacto negativo en los pequeños kioscos que luchan por mantenerse competitivos en un mercado cada vez más difícil. Estos pequeños establecimientos pueden tener dificultades para competir con los precios de los grandes supermercados, que pueden ofrecer precios más bajos debido a su capacidad de compra a gran escala y economías de escala. Además, la inflación en Argentina puede hacer que sea aún más difícil para los pequeños kioscos mantenerse a flote en un mercado cada vez más competitivo.
 
+Por lo tanto, es importante que los pequeños kioscos tomen medidas para mantenerse competitivos en un mercado cada vez más difícil. Esto puede incluir la búsqueda de formas de reducir costos y mejorar la eficiencia operativa, así como la exploración de nuevos productos y servicios que puedan atraer a los consumidores y diferenciarlos de los grandes supermercados. Además, los pequeños kioscos pueden considerar la posibilidad de establecer asociaciones con otros pequeños negocios locales para mejorar su capacidad de compra y reducir costos.
 
-### Slide 1: Introducción
+En resumen, la implementación de la iniciativa Precios Claros en un supermercado local puede tener un impacto significativo en el mercado, especialmente en el sector de los pequeños kioscos. Si bien esto puede llevar a una mayor competencia y precios más bajos para los consumidores, también puede presentar desafíos para los pequeños establecimientos que luchan por mantenerse competitivos en un mercado cada vez más difícil. Por lo tanto, es importante que los pequeños kioscos tomen medidas para mantenerse competitivos en este entorno, incluyendo la exploración de nuevas oportunidades y asociaciones.
+3.0 — **AntoServices** *Análisis de necesidad*
+La iniciativa Precios Claros puede proporcionar una gran cantidad de información útil para los inversores y empresarios que buscan aprovechar oportunidades en el mercado. Sin embargo, esta información puede ser difícil de manejar y analizar sin herramientas adecuadas. Por lo tanto, el desarrollo de un tablero de seguimiento de precios puede ser una inversión valiosa para mejorar la toma de decisiones y las inversiones.
 
-### Slide 2: 
+Un tablero de seguimiento de precios puede proporcionar una vista centralizada y fácil de usar de los datos de precios proporcionados por Precios Claros. Al mostrar la información en un formato visualmente atractivo y fácil de entender, los inversores y empresarios pueden identificar fácilmente las tendencias y patrones en el mercado. Esto puede ayudarles a tomar decisiones informadas sobre las inversiones y estrategias empresariales.
 
-### Slide 3: 
+Además, un tablero de seguimiento de precios también puede incluir herramientas analíticas y de visualización de datos que permitan a los usuarios profundizar en los datos de Precios Claros y analizarlos en profundidad. Por ejemplo, los usuarios pueden utilizar gráficos y tablas interactivas para comparar los precios de diferentes productos en diferentes regiones y ciudades. También pueden utilizar herramientas de análisis predictivo para predecir las tendencias futuras en el mercado y ajustar sus estrategias en consecuencia.
 
-### Slide 4: Conclusiones
+En cuanto a los pequeños kioscos, un tablero de seguimiento de precios puede proporcionar una valiosa información sobre los precios de los productos de los grandes supermercados, lo que les permitiría ajustar sus precios en consecuencia y competir de manera más efectiva en el mercado.
 
+En resumen, el desarrollo de un tablero de seguimiento de precios puede ser una inversión valiosa para mejorar la toma de decisiones e inversiones en el mercado. Al proporcionar una vista centralizada y fácil de usar de los datos de Precios Claros, así como herramientas analíticas y de visualización de datos, los inversores y empresarios pueden tomar decisiones informadas sobre las inversiones y estrategias empresariales. Además, los pequeños kioscos también pueden beneficiarse de la información proporcionada por el tablero de seguimiento de precios para competir más efectivamente en el mercado.
 
-## Descripcion de campos del dataset:
-- Dimensiones del dataset: 
-- Período de análisis:1/1/2001 al 1/1/2023
-- Formato: CSV
+### Design
+4.0 — **AntoServices** *Hipótesis *
+5.0 — **AntoServices** *Métricas*
+6.0 — **AntoServices** *Estilos*
 
-breve descripcion de los datos que podemos encontrar en el dataset.
-- title: título nombre dado al terremoto
-- magnitud: La magnitud del terremoto
-- date_time: fecha y hora
-- cdi: la intensidad máxima informada para el rango del evento
-- mmi: La intensidad instrumental máxima estimada para el evento
-- alerta: El nivel de alerta - "verde", "amarillo", "naranja" y "rojo"
-- tsunami: "1" para eventos en regiones oceánicas y "0" en caso contrario
-- sig: Un número que describe cuán significativo es el evento. Los números más grandes indican un evento más - significativo. Este valor se determina en función de una serie de factores, que incluyen: magnitud, MMI máximo, informes de sensación e impacto estimado
-- net: El ID de un contribuyente de datos. Identifica la red considerada como la fuente de información preferida para este evento.
-- nst: El número total de estaciones sísmicas utilizadas para determinar la ubicación del terremoto.
-- dmin: Distancia horizontal del epicentro a la estación más cercana
-- brecha: La mayor brecha azimutal entre estaciones azimutalmente adyacentes (en grados). En general, cuanto más pequeño es este número, más confiable es la posición horizontal calculada del terremoto. Las ubicaciones de terremotos en las que la brecha azimutal supera los 180 grados suelen tener grandes incertidumbres de ubicación y profundidad
-- magType: el método o algoritmo utilizado para calcular la magnitud preferida para el evento
-- profundidad: La profundidad donde el terremoto comienza a romperse
-- latitud/longitud: sistema de coordenadas mediante el cual se puede determinar y describir la posición o ubicación de cualquier lugar en la superficie terrestre
-- ubicación: ubicación dentro del país
-- continente: continente del país golpeado por el terremoto
-- país: país afectado
+### Development
+7.0 — **AntoServices** *Solapas*
+8.0 — **AntoServices** *MVP*
+9.0 — **AntoServices** *Resumen de análisis*
