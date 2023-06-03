@@ -1,0 +1,36 @@
+graph ER {
+    fontname = "Helvetica, Arial, sans-serif"
+    node [fontname = "Helvetica, Arial, sans-serif"]
+    edge [fontname = "Helvetica, Arial, sans-serif"]
+    layout = neato
+    node [shape = box] Usuarios; Registro; Empresas; SubAreas;
+    node [shape = ellipse]
+        Nombre;Apellido;Externo; Genero; Empresa; Area;
+        Nominador;Nominado; Practica; motivo; fecha; subareas
+    node [shape=diamond,style=filled,color=lightgrey]; CIDW; EID; SAID;
+
+    Usuarios -- CIDW  [label = "1" len=1.50];
+    Usuarios -- Nombre [label = "1" len=1.50];
+    Usuarios -- Apellido [label = "1" len=1.50];
+    Usuarios -- Genero [label = "1" len=1.50];
+    Usuarios -- EID [label = "N" len=1.70];
+    Usuarios -- SAID [label = "N" len=1.50];
+
+    SubAreas -- SAID [label = "1" len=1.50];
+    SubAreas -- Area [label = "1" len=1.50];
+    SubAreas -- subareas [label = "1" len=1.50];
+
+    Empresas -- EID [label = "1" len=1.50];
+    Empresas -- empresa [label = "1" len=1.50];
+    Empresas -- externo [label = "1" len=1.50];
+
+    CIDW -- Nominador [label = "N" len=1.50];
+    CIDW -- Nominado [label = "N" len=1.50];
+
+    Registro -- Nominado [label = "1" len=1.50];
+    Registro -- Nominador [label = "1" len=1.50];
+    Registro -- Practica  [label = "1" len=1.50];
+    Registro -- motivo [label = "1" len=1.50];
+    Registro -- fecha [label = "1" len=1.50];
+
+}

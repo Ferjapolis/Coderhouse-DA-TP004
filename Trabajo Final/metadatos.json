@@ -1,0 +1,255 @@
+{
+  "user": "ferjapolis",
+  "version": "1.0.0",
+  "type": "Reconocimientos",
+  "create": "2023-05-25T01:15:01",
+  "filename": "SubAreas.csv",
+  "datasets": [
+    {
+      "index_columns": [
+        {
+          "kind": "range",
+          "name": null,
+          "start": 0,
+          "stop": 210,
+          "step": 1
+        }
+      ],
+      "column_indexes": [
+        {
+          "name": null,
+          "field_name": null,
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": {
+            "encoding": "UTF-8"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "name": "Nombre",
+          "field_name": "Nombre",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "Apellido",
+          "field_name": "Apellido",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "Genero",
+          "field_name": "Genero",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "CWID",
+          "field_name": "CWID",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "EID",
+          "field_name": "EID",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "SAID",
+          "field_name": "SAID",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "12.0.0"
+      },
+      "pandas_version": "2.0.1",
+      "name": "Usuarios.csv"
+    },
+    {
+      "index_columns": [
+        {
+          "kind": "range",
+          "name": null,
+          "start": 0,
+          "stop": 3000,
+          "step": 1
+        }
+      ],
+      "column_indexes": [
+        {
+          "name": null,
+          "field_name": null,
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": {
+            "encoding": "UTF-8"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "name": "id",
+          "field_name": "id",
+          "pandas_type": "int64",
+          "numpy_type": "int64",
+          "metadata": null
+        },
+        {
+          "name": "nominador",
+          "field_name": "nominador",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "nominado",
+          "field_name": "nominado",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "pr\u00e1ctica",
+          "field_name": "pr\u00e1ctica",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "motivo",
+          "field_name": "motivo",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "fecha",
+          "field_name": "fecha",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "12.0.0"
+      },
+      "pandas_version": "2.0.1",
+      "name": "Registros.csv"
+    },
+    {
+      "index_columns": [
+        {
+          "kind": "range",
+          "name": null,
+          "start": 0,
+          "stop": 8,
+          "step": 1
+        }
+      ],
+      "column_indexes": [
+        {
+          "name": null,
+          "field_name": null,
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": {
+            "encoding": "UTF-8"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "name": "Empresa",
+          "field_name": "Empresa",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "Externo",
+          "field_name": "Externo",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "EID",
+          "field_name": "EID",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "12.0.0"
+      },
+      "pandas_version": "2.0.1",
+      "name": "Empresas.csv"
+    },
+    {
+      "index_columns": [
+        {
+          "kind": "range",
+          "name": null,
+          "start": 0,
+          "stop": 20,
+          "step": 1
+        }
+      ],
+      "column_indexes": [
+        {
+          "name": null,
+          "field_name": null,
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": {
+            "encoding": "UTF-8"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "name": "\u00c1rea",
+          "field_name": "\u00c1rea",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "SubArea",
+          "field_name": "SubArea",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        },
+        {
+          "name": "SAID",
+          "field_name": "SAID",
+          "pandas_type": "unicode",
+          "numpy_type": "object",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "12.0.0"
+      },
+      "pandas_version": "2.0.1",
+      "name": "SubAreas.csv"
+    }
+  ]
+}
