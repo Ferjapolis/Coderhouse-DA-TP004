@@ -54,21 +54,24 @@ Esta documentación presenta un análisis exhaustivo del Programa de Reconocimie
     - Empresas.csv
     - SubAreas.csv
     - Análisis de Metadatos
-9. **Modelo relacional en Power BI**	
-10. **Segmentaciones elegidas**	
-11. **Medidas calculadas**	
-12. **Visualización de los datos**	
+9. **Estilo de Marca UNGE**
+    - Logotipo
+    - Colores
+10. **Modelo relacional en Power BI**	
+11. **Segmentaciones elegidas**	
+12. **Medidas calculadas**	
+13. **Visualización de los datos**	
     - Portada
     - Glosario
     - Resumen
     - Resumen por Área vs Nominaciones
     - Resumen por Área vs Nominadores
     - Resumen por Histórico
-13. **Versiones**	
+14. **Versiones**	
     - BETA v1.0.0	
     - BETA v1.1.3	
-14. **Conclusión**	
-15. **Futuras líneas**	
+15. **Conclusión**	
+16. **Futuras líneas**	
 
 
 # 1 - Introducción 
@@ -347,6 +350,7 @@ La tabla final tiene un total de 3000 registros, donde cada registro tiene un id
 # 7 - Diagrama entidad-relación
 El siguiente código representa la creación de un diagrama de relación de entidades utilizando el editor de diagramas en línea llamado Edotor. Este tipo de diagrama se utiliza para visualizar las relaciones entre las entidades de un sistema o base de datos. En este caso, se ha utilizado el código para representar la relación entre las entidades "Usuarios" y "Registro", junto con sus atributos correspondientes.
 
+[ERD.dot](/ERD.dot)
 ```r
 graph ER {
     fontname = "Helvetica, Arial, sans-serif"
@@ -400,7 +404,7 @@ La tabla proporciona una descripción detallada de los campos presentes en ella.
  - Descripción: Proporciona una breve descripción del contenido o la función del campo en la tabla. Es útil para comprender mejor el propósito o el contexto del campo.
 
 
-### Usuarios.csv
+### Usuarios.csv [( Ir )](/datasets/Usuarios.csv)
 | Tipo | Nombre | TYPE | Descripción |
 |---|---|---|---|
 |PK|CIDW|String|Identificador único de usuario Windows.|
@@ -410,7 +414,7 @@ La tabla proporciona una descripción detallada de los campos presentes en ella.
 |FK|EID|String|ID de tablade empresa contratante|
 |FK|SAID|String|ID de sub área al que pertenece la empresa participante.|
 
-### Registros.csv
+### Registros.csv [( Ir )](/datasets/Registros.csv)
 | Tipo | Nombre | TYPE | Descripción |
 |---|---|---|---|
 |FK|nominador|String|identificador del usuario nominador|
@@ -421,14 +425,14 @@ La tabla proporciona una descripción detallada de los campos presentes en ella.
 |PK|ID|Int|número de index|
 
 
-### Empresas.csv
+### Empresas.csv [( Ir )](/datasets/Empresas.csv)
 | Tipo | Nombre | TYPE | Descripción |
 |---|---|---|---|
 ||Empresa|String|Nombre de la empresa.|
 ||Externo|String|Indicador tipo de nómina.|
 |PK|EID|String|ID único de la empresa.|
 
-### SubAreas.csv
+### SubAreas.csv [( Ir )](/datasets/SubAreas.csv)
 | Tipo | Nombre | TYPE | Descripción |
 |---|---|---|---|
 |FK|Área|String|Nombre del área a la que pertenece.|
@@ -444,7 +448,7 @@ El módulo personalizado permite generar el documento de metadatos utilizando la
 
 
 # 9 - Estilo de Marca **UNGE**
-**Logotipo**:
+## Logotipo:
 
 ![logotipos](img/logos.png)
 
@@ -453,7 +457,7 @@ El logotipo de **UNGE** presenta un monstruo remarcado en líneas, que simboliza
 
 
 
-**Colores**:
+## Colores:
 Los colores utilizados en la marca **UNGE** son los siguientes:
 ![paleta](img/paleta.png)
 
@@ -588,7 +592,8 @@ CALCULATE(
 ```
 
 # 13 - Visualización de los datos
-update: 2023-05-02
+
+[PDF](/Reconocimientos.pdf)
 
 ![screen_1](img/screen_1.png)
 
@@ -676,7 +681,7 @@ Relación de tablas:
  - KPI para calcular el total acumulado del uso del programa.
  - KPI para identificar la tendencia o evolución del uso del programa a lo largo del tiempo.
 
-# 14 - Conclusión 
+# 15 - Conclusión 
 En conclusión, el tablero desarrollado en Power BI ha demostrado ser una herramienta efectiva para el análisis y visualización de datos relacionados con el programa de reconocimientos interno implementado en la empresa "Unge". A través de la integración de diferentes prácticas y métricas, se ha logrado obtener una visión completa y detallada de la interacción entre empleados, las áreas de la empresa involucradas y los motivos detrás de los reconocimientos.
 
 El tablero proporciona una visión general del comportamiento histórico y la evolución del programa de reconocimientos, permitiendo identificar tendencias, áreas de mejora y oportunidades para fortalecer las relaciones entre empleados. Además, el análisis de las empresas externas y su comparación con las empresas locales ha brindado insights valiosos sobre la participación y el impacto de los reconocimientos.
@@ -685,7 +690,7 @@ Las métricas calculadas, como la usabilidad, la diferencia porcentual y la tend
 
 En resumen, el tablero en Power BI ha proporcionado una herramienta visualmente atractiva y fácil de usar para analizar, monitorear y mejorar el programa de reconocimientos interno en la empresa "Unge". Los insights obtenidos a través de este tablero han contribuido a fortalecer la cultura organizacional, fomentar la colaboración y motivar a los empleados a través de un sistema de reconocimientos más efectivo.
 
-# 15 - Futuras líneas
+# 16- Futuras líneas
 Basado en el análisis de los datos explorados de 2020 a 2022, se pueden identificar varios pasos clave para futuras acciones y mejoras en el programa de reconocimientos interno de la empresa "Unge":
 
  1. Predicción de tendencias: Utilizando técnicas de análisis predictivo, se puede desarrollar un modelo para predecir las tendencias futuras en el programa de reconocimientos. Esto permitirá anticipar posibles fluctuaciones en la participación, identificar períodos de mayor actividad y planificar acciones específicas en consecuencia.
