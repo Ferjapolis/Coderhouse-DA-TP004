@@ -274,6 +274,7 @@ update: 2023-05-02
 
 ### Documento de Estilo de Marca UNGE
 **Logotipo**:
+
 ![logotipos](img/logotipos.png)
 
 El logotipo de UNGE presenta un monstruo remarcado en líneas, que simboliza la innovación y la creatividad en el desarrollo de software y aplicativos para el campo. El nombre de la empresa se integra con el diseño del logotipo, creando una identidad visual única y reconocible.
